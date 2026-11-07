@@ -1,0 +1,16 @@
+{
+  "name": "nifty-sensex-trading-system",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NIFTY 50 + SENSEX trading-signal research application (educational, not for live trading).",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace frontend",
+    "dev:backend": "npm run dev --workspace backend",
+    "build:frontend": "npm run build --workspace frontend",
+    "install:all": "npm install"
+  }
+}
